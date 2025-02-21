@@ -6,7 +6,7 @@ const SWAGGER_UI_TEMPLATE: &str = r#"
   <head>
     <meta charset="UTF-8">
     <title>Swagger UI</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.10.3/swagger-ui.min.css" integrity="sha512-GjxduL6utVm4zShr/F1ulzFRBq08BMVm6vBKBsdIRajay+5JQCCo8nTB+RuUT6WrSeRh3TOJ7JbQNRXznpYlhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.18.2/swagger-ui.min.css" integrity="sha512-xRGj65XGEcpPTE7Cn6ujJWokpXVLxqLxdtNZ/n1w52+76XaCRO7UWKZl9yJHvzpk99A0EP6EW+opPcRwPDxwkA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style charset="UTF-8">{:index_style}</style>
 
     </head>
@@ -14,8 +14,8 @@ const SWAGGER_UI_TEMPLATE: &str = r#"
   <body>
     <div id="swagger-ui"></div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.10.3/swagger-ui-bundle.min.js" integrity="sha512-sQ0p2uQ26Rl59qkMJt+ltkoBuJG2qFfkiA79QXhdxfr2JAIKZ8X+H8SWhMLIaNsFJPNNyJnN4RllWMrVczPIgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.10.3/swagger-ui-standalone-preset.min.js" integrity="sha512-qwGi7EG31HcylzamsmacHLZJrfUGRuuHEaCMcOojuNpMu+paR554VjaCZ9LdUVTrmF8xC03YVqTzuKx0SDdruA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.18.2/swagger-ui-bundle.min.js" integrity="sha512-9tBcCofqWq+PelL6USpUB7OJrCaObfefi9ht9nVZuKt1XP7eHDs7NwVljLSLVtSsErax1Tz3pG3O82eeq546Rg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.18.2/swagger-ui-standalone-preset.min.js" integrity="sha512-RYT3vTu8lWSgdoB5zNck/WogIqUb/ap/ivTr6t2LeS+MwqxRQsnSHkHpJRKjnC4T2fH7OMTxxQoC3jh7KGd3HA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
       window.onload = function() {
         window.ui = SwaggerUIBundle({
